@@ -5,20 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
 
     <form action="">
-        <label for="txtNome">NOME:</label>
+        <label for="txtNome">NOME:</label> <!-- Label representa o "IMPUT" / Defino a que elemento essa label está relacionado-->
         <input type="text" id="txtNome">
+
         <br><br>
+
         E-MAIL: <input type="email" id="txtEmail" placeholder="exemplo@exemplo.com.br"> <!-- Forma antiga de se fazer s/ label -->
+
         <br><br>
+
         <label for="txtCPF">CPF:</label>
-        <input type="text" id="txtCPF">
+        <input type="text" id="txtCPF" placeholder="Digite somente números" required maxlength="11" minlength="11"> <!-- required : faz com que se torne um campo obrigatorio-->
+        <!-- maxlength : define um limite de caracteres-->
+        <!-- minlength : define um limite minimo de caracteres-->
+
+        <br><br>
+
+        <label for="idEstado">ESTADO:</label>
+        <select name="estado" id="idEstado">
+            <option value="SP">SÃO PAULO</option>
+            <option value="RJ">RIO DE JANEIRO</option>
+            <option value="ES">ESPIRITO SANTO</option>
+        </select>
+
+        <br><br>
+
+        <label for="txtPassword">SENHA:</label>
+        <input type="password" id="txtPassword"> <!-- type password : deixa a senha oculta enquanto é digitada pelo usuario -->
+
+        <br><br>
+
+        <label for="txtMensagem">MENSAGEM:</label>
+        <textarea name="" id="txtMensagem" cols="30" rows="10"></textarea>
+        
+        <br><br>
+
+        <label for="txtNumeros">NÚMEROS</label>
+        <input type="range" id="txtNumeros" min="5" max="50">
+
+        <hr>
         <br><br><br>
+
         <button type="submit"> Enviar </button>
+
+        <br><br>
+        <input type="reset">
         
 
     </form>
