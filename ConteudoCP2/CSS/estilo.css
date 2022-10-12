@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(5, 58, 58);
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.botao{
+    color: white;
+    background-color: rgb(9, 170, 170);
+    padding-top: 15px; /* espaçamento superior  */
+    padding-bottom: 15px; /* espaçamento inferiror */
+    padding-left: 15px; /* espaçamento esquerda */
+    padding-right: 15px; /* espaçamento direita */
+    border-radius: 30px; /* curvatura da borda total */
+ }
+
+ .botaoDois{
+    color: white;
+    background-color: rgb(9, 170, 170);
+    padding-top: 15px; /* espaçamento superior  */
+    padding-bottom: 15px; /* espaçamento inferiror */
+    padding-left: 15px; /* espaçamento esquerda */
+    padding-right: 15px; /* espaçamento direita */
+    border-top-left-radius: 30px; /* curvatura da borda esquerda superior */
+    border-bottom-left-radius: 30px; /* curvatura da borda esquerda inferior */
+ }
+
+.caixaTextos{
+    color: whitesmoke;
+    background-color: rgb(92, 91, 91);
+    border-radius: 20px;
+    padding: 20px;
+}

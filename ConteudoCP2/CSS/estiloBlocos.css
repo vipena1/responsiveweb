@@ -1,0 +1,32 @@
+div{
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 2px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#Caixa1{
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#Caixa2{
+    background-color: brown;
+}
+
+#Caixa3{
+    background-color: yellow;
+}
+
+#caixaImagemFundo{
+    background-image: url(/ConteudoCP2/IMG/img-7b36149467ce139b.png);
+    width: 100%;
+    padding: 20px;
+    border-radius: 0px;
+}
