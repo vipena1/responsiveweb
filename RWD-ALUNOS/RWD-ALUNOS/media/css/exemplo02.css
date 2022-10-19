@@ -1,0 +1,86 @@
+body{
+    background-color: #333;
+}
+
+.caixa{
+    border: solid 1px red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 40px;
+}
+
+.area-visivel span{
+    color: #666;
+    display: none;
+}
+/* Some com tudo que está na tag span */
+
+/* se a tela estiver de 0 a 600px faça isso: */
+@media screen and (max-width:600px) {
+    span.lt600{
+        display: inline-block;
+    }
+
+    .um {
+        color: aqua;
+        background-color: aliceblue;
+    }
+
+    .dois{
+        display: none;
+    }
+
+    .tres{
+        background-color: black;
+        color: aliceblue;
+    }
+    
+}
+
+/* Para layout com no minimo 900px faça isso: */
+
+@media screen and (min-width: 900px) {
+    span.gt900{
+        display: inline-block;
+    }
+
+    .um{
+        display: none;
+    }
+
+    .dois{
+        background-color: blue;
+        color: aquamarine;
+    }
+
+    .tres{
+        background-color: chartreuse;
+        color: aliceblue;
+    }
+    
+}
+
+/* Para layout entre 600 e 900px faça isso: */
+
+@media screen and (min-width:601px) and (max-width:899px) {
+    span.bt600-900{
+        display: inline-block;
+    }
+
+    .um{
+        background-color: yellow;
+        color: red;
+    }
+
+    .dois{
+        background-color: rebeccapurple;
+        color: goldenrod;
+    }
+
+    .tres{
+        display: none;
+    }
+    
+}
