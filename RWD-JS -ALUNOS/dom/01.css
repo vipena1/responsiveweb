@@ -1,0 +1,36 @@
+#btnDark{
+    background-color: black;
+    color: white;
+
+}
+
+#btnLigth{
+    background-color: white;
+    color: black;
+}
+
+.escuro {
+    background-color: black;
+    color: white;
+}
+
+.claro {
+    background-color: white;
+    color: black;
+}
+
+#btn13{
+    background-color: red;
+    color: white;
+}
+
+.vermelho{
+    background-color: red;
+    color: white;
+    background-image: url(https://veja.abril.com.br/wp-content/uploads/2022/05/LULA-CORAC%CC%A7AOZINHO-2022-a7a893a07ecca6b2be8c8-1.jpg?quality=70&strip=info&resize=850,567);
+    
+}
+
+main{
+    min-height: 100vh;
+}
