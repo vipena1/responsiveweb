@@ -1,0 +1,38 @@
+#btnDark{
+    background-color: black;
+    color: white;
+    
+    
+}
+
+#btnLigth{
+    background-color: white;
+    color: black;
+}
+
+.escuro {
+    background-color: black;
+    color: white;
+    
+}
+
+.claro {
+    background-color: white;
+    color: black;
+}
+
+#btnYellow{
+    background-color:yellow;
+    color:black;
+}
+
+.amarelo{
+    background-color: yellow;
+    color: black;
+}
+
+main{
+    min-height: 100vh;
+}
+
+
